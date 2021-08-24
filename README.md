@@ -1,6 +1,6 @@
 # Package Template
 
-Cookiecutter Template for Packages
+Cookiecutter Template for Packages lib using Tapioca Client
 
 
 ## Requirements
