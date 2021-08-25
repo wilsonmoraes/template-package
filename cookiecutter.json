@@ -1,5 +1,5 @@
 {
-    "project": "Project Package Tapioca emplate",
+    "project": "Project Package Name",
     "repo_name": "{{ cookiecutter.project.lower().replace(' ', '-') }}",
     "project_name": "{{ cookiecutter.repo_name.lower().replace('-', '_') }}",
     "project_short_description": "",
