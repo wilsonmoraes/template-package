@@ -14,7 +14,7 @@ Cookiecutter Template for Packages lib using Tapioca Client
 To create a new project using this template, go to folder then:
 
 ```
-$ cookiecutter git@github.com:wilsonmoraes/template-tapioca.git
+cookiecutter git@github.com:wilsonmoraes/template-tapioca.git
 ```
 
 Then answer the following questions:
