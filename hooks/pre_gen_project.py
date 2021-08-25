@@ -8,4 +8,3 @@ def validate_empty_fields(data, field):
 
 
 validate_empty_fields('{{ cookiecutter.project_short_description }}', "project_short_description")
-validate_empty_fields('{{ cookiecutter.full_documentation_url }}', "full_documentation_url")

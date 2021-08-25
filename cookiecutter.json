@@ -3,9 +3,7 @@
     "repo_name": "{{ cookiecutter.project.lower().replace(' ', '-') }}",
     "project_name": "{{ cookiecutter.repo_name.lower().replace('-', '_') }}",
     "project_short_description": "",
-    "full_documentation_url": "",
     "version": "0.1.0",
-    "circle_token": "your_circle_ci_token_here",
     "_copy_without_render": [
             "*.pyc"
     ],

@@ -16,12 +16,6 @@ To install the project for development just use:
   poetry install
 
 
-Documentation
--------------
-
-Check `complete documentation`_ about this Package.
-
-.. _`complete documentation`: {{ cookiecutter.full_documentation_url }}
 
 
 -----------------
