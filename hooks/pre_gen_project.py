@@ -1,4 +1,10 @@
-import sys
+import os
+from cookiecutter.main import cookiecutter
+
+root_directory = os.path.dirname(path)
+
+cookiecutter('git@github.com:wilsonmoraes/template-package.git',
+             extra_context={'project': root_directory})
 
 
 def validate_empty_fields(data, field):
