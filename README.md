@@ -33,7 +33,7 @@ pip install -U cookiecutter
 Then go to a directory where you want to create your project and run:
 
 ```bash
-cookiecutter git@github.com:wilsonmoraes/template-tapioca.git
+cookiecutter git@github.com:wilsonmoraes/template-package.git
 ```
 
 ### Input variables
