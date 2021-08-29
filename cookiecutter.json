@@ -1,7 +1,7 @@
 {
-    "project": "Project Package Name",
-    "repo_name": "{{ cookiecutter.project.lower().replace(' ', '-') }}",
-    "project_name": "{{ cookiecutter.repo_name.lower().replace('-', '_') }}",
+    "_project": "Project Package Name",
+    "_repo_name": "{{ cookiecutter.project.lower().replace(' ', '-') }}",
+    "_project_name": "{{ cookiecutter.repo_name.lower().replace('-', '_') }}",
     "project_short_description": "",
     "version": "0.1.0",
     "_copy_without_render": [
