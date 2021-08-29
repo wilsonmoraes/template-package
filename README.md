@@ -14,24 +14,37 @@ Your next Python package needs a ideal project structure.
 
 
 ## Requirements
-
-* [Python 3.5+](https://python.org)
+> All you need is the latest version of cookiecutter 😉
+* [Python 3.7+](https://python.org)
 * [cookiecutter 1.3+](https://cookiecutter.readthedocs.org/en/latest/)
 
 
-## Usage
 
-To create a new project using this template, go to folder then:
+## 🤯 How to use it
 
+### Installation
+
+To begin using the template consider updating `cookiecutter`
+
+```bash
+pip install -U cookiecutter
 ```
+
+Then go to a directory where you want to create your project and run:
+
+```bash
 cookiecutter git@github.com:wilsonmoraes/template-tapioca.git
 ```
 
-Then answer the following questions:
+### Input variables
 
-```
-project [Project Template]: your-project
-repo_name [your-package]:
-project_name [your_project]:
-project_short_description [Boilerplate to implement simple packages]: Package for your reason
-```
+Template generator will ask you to fill some variables.
+
+The input variables, with their default values:
+
+
+|     **Parameter**     |      **Required**      |      **Default value**      |  **Description**                                                                                                                                                               |
+|:---------------------:|:---------------------------:|:---------------------------:|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `project`           | `True`            |             | Check the availability of possible name  before creating the project. |
+| `repo_name`           |             |      based on the `organization`       | GitHub username for hosting. Also used to set up `README.md`, `pyproject.toml` and template files for GitHub. |
+| `project_short_description`           |     `True`        |          | Brief description of your project. |
